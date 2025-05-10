@@ -1,0 +1,237 @@
+.dashBoardPropertiesAboveNav{
+   display: flex;
+   flex-wrap: wrap;
+   /* border: 1px solid red; */
+   justify-content: space-between;
+   
+}
+
+.dashBoardPropertiesBelowNav{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid blue; */
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.dashBoardGrid{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.dashBoardGrid h3{
+    color: #002b5b;
+}
+
+.dashBoardButton{
+background-color: #002b5b;
+color: #FFFFFF;
+border: none;
+width: 300px;
+height: 40px;
+border-radius: 1rem;
+}
+
+.dashBoardAddNew{
+    background-color: #002b5b;
+    color: #FFFFFF;
+    width: 10rem;
+    text-align: center;
+    height: 4rem;
+    border-radius: 1rem;
+    font-size: x-large;
+    border: none;
+}
+
+.dashBoardRefresh{
+    border: 1px solid #002b5b;
+    width: 6rem;
+    border-radius: 1rem;
+    height: 5rem;
+    background-color: white;
+}
+
+/* .refreshIcon{
+    
+    margin-top: 1.2rem;
+    margin-left: 1.7rem;
+} */
+
+.dashBoardNum{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 2rem;
+    margin-right: 9rem;
+}
+
+.dashBoardNum button{
+    background-color: #FFFFFF;
+    border: none;
+    font-size: xx-large;
+    
+}
+
+.dashBoardNum button:hover{
+    background-color: #3D9970;
+    color: #FFFFFF;
+    width: 3rem;
+    height: 3rem;
+}
+
+.dashBoardLand{
+    background-color: #002b5b;
+    color: #ffffff;
+    width: 7rem;
+    border-radius: 0.5rem;
+    font-size: x-large;
+    border: none;
+    height: 4rem;
+}
+
+.dashBoardLand option{
+   text-align: center;
+}
+
+.dashBoardRefreshFlex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-right: 3rem;
+}
+
+.dashBoardHome{
+    margin-right: 3rem;
+    border: none;
+    background-color: white;
+}
+
+.paraFeatures{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 6rem;
+}
+
+.dashBoardImage{
+    border-radius: 1rem;
+    height: 300px;
+    width: 300px;
+   
+}
+
+.paraPost{
+
+    margin-top: 1.5rem;
+}
+
+.paraTags{
+    display: flex;
+    gap: 1rem;
+}
+
+.paraTags p:nth-child(1){
+    background-color: #CAF2FE;
+    color: #3D9970;
+    width: 7rem;
+    text-align: center;
+    height: 2rem;
+    border-radius: 0.5rem;
+   padding-top: 0.2rem;
+}
+
+.paraTags p:nth-child(2){
+    background-color: #FFCFCF;
+    color: #E92727;
+    width: 7rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding-top: 0.2rem;
+}
+
+.backToTop{
+    margin-top: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    /* margin-right: 9rem; */
+}
+
+.prevButton{
+    height: 3rem;
+}
+
+.backToTop a{
+    color: black;
+    
+}
+
+/* @media (max-width: 320px ){
+   
+    .dashBoardGrid{
+        margin-right: 3rem;
+    }
+
+    .dashBoardImage{
+        width: 100%;
+        height: 15rem;
+        object-fit: cover;
+    }
+
+.dashBoardPropertiesBelowNav{
+    display: none;
+}
+
+} */
+
+@media (max-width: 768px ){
+    .dashBoardGrid{
+        margin-right: 3rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .dashBoardImage{
+        width: 100%;
+        height: 15rem;
+        object-fit: cover;
+    }
+
+.dashBoardPropertiesBelowNav{
+    display: none;
+}
+.backToTop{
+    /* margin-left: 6rem; */
+padding-block: 2rem;
+
+}
+
+.dashBoardNum{
+    margin-left: 5rem ;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+.dashBoardPropertiesAboveNav{
+    font-size: small;
+    justify-items: auto;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+
+}
+}
+
+@media (max-width: 500px ){
+
+    .dashBoardGrid{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .backToTop{
+     margin-right: 3rem;
+    
+    }
+}

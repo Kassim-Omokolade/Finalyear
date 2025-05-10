@@ -1,0 +1,98 @@
+:root {
+  --primaryGreen: #3d9970;
+  --lightDark: #043447;
+  --blue: #18425d;
+  --red: #eb6753;
+  --darkGreen: 	#FF6F3C;
+  --grey: #8d8d8d;
+}
+
+* {
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all 0.1s ease;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none !important;
+}
+body {
+  overflow-x: hidden !important;
+}
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+.flex {
+  display: flex;
+}
+
+.DarkMode {
+  color: white !important;
+  background: #000;
+}
+
+.DarkMode .UserPropertyRelatedCard a {
+  color: white !important;
+}
+
+.DarkMode form input,
+.DarkMode textarea {
+  background-color: transparent;
+  border: 2px solid white !important;
+  color: aliceblue;
+}
+
+.DarkMode input::placeholder,
+.DarkMode textarea::placeholder {
+  color: rgba(240, 248, 255, 0.475);
+}
+
+.DarkMode .form-check-label a {
+  color: #eb6753 !important;
+}
+
+.DarkMode .card {
+  background-color: transparent;
+  color: #fff;
+}
+
+.DarkMode .search-properties {
+  background-color: #000;
+}
+
+.DarkMode .search-properties input {
+  background: transparent;
+}
+
+.DarkMode .pagination a {
+  color: #fff !important;
+}
+
+.DarkMode .discoverH1 {
+  color: #fff;
+}
+
+.DarkMode .search-cover {
+  background-color: hsla(0, 0%, 0%, 0.526);
+}
+
+.DarkMode .dark {
+  box-shadow: 0 0 2px #fff !important;
+}
+
+.DarkMode .UserSidebar {
+  background: #000 !important;
+}
+
+.DarkMode .UserSidebar a {
+  color: #fff !important;
+}
+
+.switch {
+  right: 1rem;
+  top: 2rem;
+}

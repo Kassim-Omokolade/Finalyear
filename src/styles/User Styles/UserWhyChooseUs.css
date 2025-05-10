@@ -1,0 +1,211 @@
+.whyChooseUs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3rem;
+    
+}
+.whyChoose-cover{
+    background: url('../../assets/images/whyChooseUs.png') !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    position: relative ;
+    /* z-index: -2; */
+}
+
+.DarkMode .whyChoose-textIcon {
+    color: #fff;
+    background-color: #000;
+}
+.whyChoose-cover> h1{
+    font-family: "Exo 2," sans-serif;
+    color: #ffff;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+    margin-top: 3rem;
+} .whyChoose-textIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid transparent;
+    box-shadow: 0px 0px 2px 2px  whitesmoke;
+    border-radius: 10px;
+    padding: 0rem 2rem;
+    margin: .8rem;
+    background-color: white;
+    gap: .1rem;
+    /* padding: 20rem; */
+    position: absolute;
+    top: 50% !important;
+    /* z-index: 2; */
+}
+.whyChoose-textIcon > .choose-lines{
+    width: 1.5px !important;
+    background-color: #04344717;;
+    height: 10rem;
+}
+.same{
+    width: 100%;
+    padding: .1rem .1rem;
+    text-align: center;
+    line-height: 1.6;
+}
+.same > img{
+    width: 50%;
+}
+.same > h3 {
+  font-size: .3rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+.same > p {
+  font-size: .4rem;
+  text-align: center;
+}
+
+
+
+@media screen and (min-width: 375px) {
+    .whyChoose-cover{
+        height: 50vh;
+    }
+    .whyChoose-cover > .whyChoose-textIcon{
+        top: 11rem;
+        padding: 1rem 2rem;
+    } 
+    .whyChoose-textIcon > .choose-lines{
+        width: 2px !important;
+        background-color: #04344717;;
+    }
+    .same > h3 {
+        font-size: .6rem;
+    }
+    .same > p {
+        font-size: .4rem;
+      }
+}
+@media screen and (min-width: 768px) {  
+    .whyChoose-cover{
+        height: 65vh;
+    }
+    .whyChoose-cover> h1{
+        font-size: 3rem;
+    }
+   .whyChoose-cover >.whyChoose-textIcon {
+        height: 250px;
+        margin: 3rem;
+    }  
+    .same > img{
+        width: 40%;
+    }
+   .same > h3 {
+        font-size: .8rem;
+    }
+   .same > p {
+        font-size: .7rem;
+    }
+   .whyChoose-textIcon > .choose-lines{
+        width: 1.5px !important;
+        background-color: #04344717;;
+        height: 15.5rem;
+    }
+}
+/* @media screen and (min-width: 692px) {  
+    .whyChoose-cover{
+        height: 60vh;
+    }
+    .whyChoose-cover> h1{
+        font-size: 4rem;
+        margin-top: 10rem;
+    }
+    .whyChoose-cover > .whyChoose-textIcon{
+        height:300px;
+        top: 20rem;
+        margin: 3rem;
+        padding: 1rem 2rem;
+    } 
+    .same{
+        padding: .1rem;
+    } 
+    .same > img{
+        width: 60%;
+    }
+   .same > h3 {
+        font-size: 1rem;
+        text-wrap: 100px;
+    }
+   .same > p {
+        font-size: 1rem;
+    }
+   .whyChoose-textIcon > .choose-lines{
+        width: 1.5px !important;
+        background-color: #04344717;;
+        height: 18rem;
+    }
+} */
+@media screen and (min-width: 1024px) {  
+    .whyChoose-cover{
+        height: 70vh;
+    }
+    .whyChoose-cover> h1{
+        font-size: 4rem;
+        margin-top: 9rem;
+    }
+    .whyChoose-cover > .whyChoose-textIcon{
+        height: 300px;
+        top: 19rem;
+        margin: 4rem;
+        padding: 1rem 3rem;
+    }  
+    .same > img{
+        width: 60%;
+    }
+   .same > h3 {
+        font-size: 1rem;
+    }
+   .same > p {
+        font-size: .9rem;
+    }
+   .whyChoose-textIcon > .choose-lines{
+        width: 1.5px !important;
+        background-color: #04344717;;
+        height: 18rem;
+    }
+}
+@media screen and (min-width: 1440px) {  
+    .whyChoose-cover{
+        height: 80vh;
+    }
+    .whyChoose-cover> h1{
+        font-size: 5rem;
+        margin-top: 14rem;
+    }
+    .whyChoose-cover > .whyChoose-textIcon {
+        height: 400px;
+        top: 24rem;
+        margin: 8rem;
+        padding: 1rem 3rem;
+    } 
+    .same > img{
+        width: 40%;
+    } 
+   .same > h3 {
+        font-size: 1.4rem;
+        margin-top: 2rem;
+    }
+   .same > p {
+        font-size: 1.1rem;
+        margin-top: 2rem;
+    }
+   .whyChoose-textIcon > .choose-lines{
+        width: 2px !important;
+        background-color: #04344717;;
+        height: 24rem;
+    }
+}

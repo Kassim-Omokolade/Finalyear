@@ -1,0 +1,136 @@
+/* .UserPropertyDetailsContainer {
+    padding: 5rem 5.36rem 5rem 6.16rem;
+} */
+
+.naira {
+  text-decoration: line-through;
+  text-decoration-style: double !important;
+}
+
+.triangle-icon{
+  color: #002b5b;
+}
+.UserPropertyDetailsExtraImg button {
+  bottom: 1rem;
+  right: 1rem;
+}
+.UserPropertyDetailsExtraImg img {
+  height: 298px;
+}
+
+.UserPropertyDetailsImages {
+  height: 619px !important;
+}
+
+.UserPropertyDetailsImages div:first-child {
+  width: 75%;
+}
+
+.UserPropertyDetailsImages div:last-child {
+  width: 25%;
+}
+.UserPropertyDetailList {
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 1px solid var(--grey);
+}
+
+.UserPropertyDetailsFeatures ul {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.UserPropertyDetailsFeatures li {
+  list-style-type: disc;
+}
+
+.UserPropertyDetailsInfo {
+  width: 75%;
+}
+
+.UserPropertyDetPrice {
+  font-size: 1.6rem;
+}
+
+.UserPropertyDetailsFormWrapper {
+  width: 25%;
+}
+
+.UserPropertyDetailsOverview p {
+  text-align: justify;
+}
+.UserPropertyRelated {
+  width: 392.48px !important;
+}
+.UserPropertyRelated img {
+  width: 100%;
+  height: 294.36px !important;
+  object-fit: cover;
+}
+
+.UserPropDetBottom {
+  bottom: 1rem;
+  right: 1rem;
+}
+
+form input:focus:not([type="checkbox"]),
+form text-area {
+  outline: 2px solid var(--primaryGreen) !important;
+}
+
+.usercontact-img {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 900px) {
+  .UserPropertyDetailsInfo,
+  .UserPropertyDetailsFormWrapper {
+    width: 100%;
+  }
+
+  .UserPropertyDetailsImages {
+    height: 100% !important;
+  }
+
+  .UserPropertyDetailsImages div:first-child {
+    width: 100%;
+  }
+
+  .UserPropertyDetailsImages div:last-child {
+    width: 100%;
+  }
+
+  .UserPropertyDetailsImages div:last-child img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .UserPropertyDetailsFeatures ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .UserPropertyDetailLocation {
+    width: 100% !important;
+  }
+
+  .UserPropertyDetailLocation img {
+    width: 100%;
+  }
+
+  .UserPropertyDetPrice {
+    font-size: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .UserPropertyDetailsFeatures ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .UserPropertyRelated {
+    width: 320px !important;
+  }
+}

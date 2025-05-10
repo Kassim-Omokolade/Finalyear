@@ -1,0 +1,202 @@
+.overlay{
+    padding: 1rem;
+    background-color: rgba(0, 0 , 0, 0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.modalBtn{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    padding: 12px 24px;
+    border: none;
+    background-color: #198d57;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.deletemodalcontainer{
+    background-color: white;
+    display: flex;
+    width: 18.06856rem;
+    height: 24.25rem;
+    padding: 6.125rem 4.96975rem 7.09063rem 4.9375rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.175rem;
+    border-radius: 1.57256rem;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+    margin-top: 6rem;
+}
+.deleteh4{
+    color: #181A20;
+    text-align: center;
+    font-family: Cambay;
+    font-size: 1.83469rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 143.875%; /* 2.63963rem */
+    width: 25.16131rem;
+    padding-top: 1.5rem;
+}
+.deletep{
+    width: 13.75rem;
+    color: #181A20;
+    text-align: center;
+    font-family: Cambay;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.875%; /* 1.61863rem */
+}
+.btn1{
+    display: flex;
+    width: 13.33469rem;
+    height: 3.8005rem;
+    padding: 0.86375rem 2.85038rem;
+    align-items: flex-start;
+    gap: 0.86375rem;
+    flex-shrink: 0;
+    border-radius: 0.60463rem;
+    background: #3D9970;    
+    color: #FFF;
+    text-align: center;
+    justify-content: center;
+    font-family: Cambay;
+    font-size: 1.35475rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+.btn1:hover{
+    background-color: #aef6d7;
+    color:black;
+    border: 0.839px solid #198d57;
+}
+.deleteno{
+    display: flex;
+    width: 13.33469rem;
+    height: 3.8005rem;
+    padding: 0.86375rem 2.85038rem;
+    align-items: flex-start;
+    gap: 0.86375rem;
+    flex-shrink: 0;
+    border-radius: 0.60463rem;
+    border: 0.839px solid #3D9970;
+    color: #3D9970;
+    text-align: center;
+    justify-content: center;
+    font-family: Cambay;
+    font-size: 1.35475rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: white;
+}
+.deleteno:hover{
+    background-color: #b5e4cf;
+    color: black;
+}
+.deleteh4{
+    width: 14.16131rem;
+    color: #181A20;
+    text-align: center;
+    font-family: Cambay;
+    font-size: 1.33469rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 143.875%; /* 2.63963rem */
+    }
+    .closebtn{
+        cursor:pointer;
+    }
+
+    @media screen and (min-width: 375px) {
+        .overlay{
+            padding: 1.5rem;
+        }
+        .deletemodalcontainer{
+            width: 20.06856rem;
+        }
+    }
+
+    @media screen and (min-width: 425px) {
+        .overlay{
+            padding: 3.2rem;
+        }
+        .deletemodalcontainer{
+            width: 20.06856rem;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .overlay{
+            padding: 6rem;
+        }
+        .deletemodalcontainer{
+            width: 35.06856rem;
+            height: 29.25rem;
+        }
+        .deleteh4{
+            width: 30rem;
+            padding-bottom: 0.5rem;
+            font-size: 1.83469rem;
+            font-weight: 800;
+        }
+        .deletep{
+            width: 25rem;
+            font-weight: 500;
+        }
+        
+        .btn1{
+            width:16.33469rem ;
+        }
+        .deleteno{
+            width:16.33469rem ;
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        .deleteh4{
+            font-size: 1.83469rem;
+            font-weight: 800;
+        }
+        .overlay{
+            padding: 12rem;
+        }
+        .deletemodalcontainer{
+            width: 40.06856rem;
+            height: 29.25rem;
+            padding-top: 9rem;
+            padding: 3.125rem 4.96975rem 3.09063rem 4.9375rem;
+            margin-top: 3rem;
+        }
+        .btn1{
+            width: 21.33469rem;
+            height: 3.8005rem;  
+        }
+        .deleteno{
+            width: 21.33469rem;
+            height: 3.8005rem;  
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+
+        .deleteh4{
+            font-size: 1.83469rem;
+            font-weight: 800;
+        }
+        .deletemodalcontainer{
+            padding: 3.125rem 4.96975rem 3.09063rem 4.9375rem;
+            margin-top: 3rem;
+        }
+        .overlay{
+            padding: 8rem 10rem 20rem 25rem;
+        }
+    }

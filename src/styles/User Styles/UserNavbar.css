@@ -1,0 +1,141 @@
+.UserNavLinks a:hover{
+   color: var(--darkGreen) !important;
+}
+
+.UserNavTransparent {
+    position: absolute;
+    top: 0;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+    /* top: 0; */
+    /* width: 100%; */
+}
+
+.usernavheader {
+    gap: 10rem;
+}
+
+.usernavheader nav {
+    width: 100%;
+}
+
+/* .usernavheader button {
+    width: 153px;
+} */
+
+.UserSidebar button {
+    width: 155px;
+}
+
+/* add this line 29-34 */
+.nav-link {
+  color: #002B5B !important;  /* Navy blue */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+
+
+
+
+@keyframes fadein {
+    from {
+        opacity: 70%;
+        transform: scale(0.8);
+    }
+
+    to {
+        opacity: 100%;
+        transform: scale(1);
+    }
+} 
+
+.UserShare {
+    margin-top: 1rem;
+    z-index: 1;
+    right: 3rem;
+    animation: fadein 0.4s ease-in-out;
+}
+
+@keyframes slidein {
+    from {
+        transform: translateX(50%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+.UserSidebar {
+    width: 50% !important;
+    display: none;
+    animation: slidein 0.5s ease-in;
+    z-index: 100 !important;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+
+/* Inside the sidebar only */
+.UserSidebar .nav-link {
+  color: #002B5B !important; /* Home text */
+}
+
+.UserSidebar .signup-btn {
+  background-color: #002B5B !important; /* Signup background */
+  color: white !important;
+}
+
+.UserSidebar .login-btn {
+  background-color: white !important; /* Login button background stays white */
+  color: #002B5B !important; /* Login text */
+}
+
+    .usernavheader {
+        gap: 2rem;
+        /* position: relative !important; */
+    }
+
+    .usernavheader nav a {
+        font-size: 0.8rem;
+    }
+
+    .usernavheader button {
+        padding: 0.7rem !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    /* #basic-navbar-nav {
+        width: 100%;
+    } */
+
+    .UserSidebar {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+
+    }
+
+    .LogoWrapper {
+        width: 100%;
+        /* gap: 5rem; */
+    }
+
+    
+   
+
+    .UserNavLinks {
+        background-color: var(--darkGreen) !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .UserSidebar {
+        width: 75% !important;
+    }
+    .usernavlogo {
+        width: 10rem;
+    }
+    
+}

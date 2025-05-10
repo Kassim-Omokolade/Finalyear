@@ -1,0 +1,347 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: exo 2;
+  }
+  
+/* More Filter */
+
+.UserPropertiesFilter {
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+    align-items: center;
+   padding: 15px;
+    font-size: medium;
+    
+  }
+  
+  .UserPropertiesFilter1 {
+    display: flex;
+    flex-wrap: wrap;
+  
+    
+  }
+
+  .UserPropertiesFilter2{
+    
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Cards */
+  .UserPropertiesCard-Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    gap: 2rem;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 3px;
+  }
+  
+  .card-title {
+    font-size: 3rem;
+    color: #444444;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-right: 120px;
+    margin-top: 20px;
+    padding-left: 15px;
+    font-size: medium;
+  }
+  .properties-image {
+    position: relative;
+    object-fit: contain;
+  }
+  .inner-icons {
+    display: flex;
+    justify-content: end;
+    font-size: medium;
+    gap: 1rem;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    margin-right: 1rem;
+    font-size: large;
+  }
+  .icon {
+    background-color: #656363;
+    color: #fff;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    
+  }
+  .location,
+  .bedroom,
+  .toilet,
+  .price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .share-like-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    padding-bottom: 15px;
+    gap: 1rem;
+  }
+  
+  .share-like-icons i {
+    cursor: pointer;
+    margin-right: 6px;
+  }
+  
+  .bed-toilet {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 18px;
+    padding-right: 80px;
+    font-size: small;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #666666;
+  }
+  
+  .toilet {
+    padding-left: 15px;
+    gap: 0.5rem;
+  }
+  .bedroom {
+    gap: 0.5rem;
+  }
+  
+  .price-icon {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 18px;
+    padding-right: 18px;
+    height: 60px;
+  }
+  
+  .location {
+    padding-left: 15px;
+    font-size: medium;
+  }
+
+
+  /* ForSALE  */
+  .forSale {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: #fff;
+    background-color: #3d9970;
+    padding: 5px;
+    border-radius: 2px;
+    z-index: 1;
+  }
+  
+  /* Featured */
+  .featured {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: #fff;
+    background-color: #c5c5c5;
+    padding: 5px;
+    border-radius: 2px;
+    z-index: 1;
+  }
+  
+  
+  /* Cards */
+  .UserPropertiesCard-Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    gap: 2rem;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 3px;
+  }
+  
+  .card-title {
+    font-size: 3rem;
+    color: #444444;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-right: 120px;
+    margin-top: 20px;
+    padding-left: 15px;
+    font-size: medium;
+  }
+  .properties-image {
+    position: relative;
+    object-fit: contain;
+  }
+  .inner-icons {
+    display: flex;
+    justify-content: end;
+    font-size: medium;
+    gap: 1rem;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    margin-right: 1rem;
+    font-size: large;
+  }
+  .icon {
+    background-color: #656363;
+    color: #fff;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+  
+  }
+  .location,
+  .bedroom,
+  .toilet,
+  .price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .share-like-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    padding-bottom: 15px;
+    gap: 1rem;
+  }
+  
+  .share-like-icons i {
+    cursor: pointer;
+    margin-right: 6px;
+  }
+  
+  .bed-toilet {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 18px;
+    padding-right: 80px;
+    font-size: small;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #666666;
+  }
+
+
+  
+ .toilet {
+    padding-left: 15px;
+    gap: 0.5rem;
+  }
+  .bedroom {
+    gap: 0.5rem;
+  } 
+  
+  .price-icon {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 18px;
+    padding-right: 18px;
+    height: 60px;
+  }
+  
+  .location {
+    padding-left: 15px;
+    font-size: medium;
+  }
+
+  /* Pagination */
+  .pagination {
+    display: inline-block;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+  } 
+
+  
+  @media (max-width: 768px) {
+    .UserPropertiesCard-Container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      gap: 1rem;
+    }
+  
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 3px;
+    }
+  }
+  @media (max-width: 320px) {
+
+    .card-title .location .bed-toilet {
+      justify-content: center;
+      align-items: center;
+      
+    }
+  .UserPropertiesFilter{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+   } 
+
+   .bedroom{
+    font-size: smaller;
+   }
+ 
+ .toilet{
+  font-size: smaller;
+ 
+ }
+  
+   .UserPropertiesFilter2{
+    width: 8rem;
+    
+   } 
+
+   .UserPropertiesFilter2 .default{
+    width: 5rem;
+   }
+   
+  }

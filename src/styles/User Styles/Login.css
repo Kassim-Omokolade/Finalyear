@@ -1,0 +1,40 @@
+/* body {
+    background-color: #b29797;
+  } */
+
+/* .signup-container{
+    height: 100vh;
+    overflow-y: hidden !important;
+  } */
+
+a {
+  text-decoration: none;
+}
+
+.usersignup-checkbox {
+  width: 1rem !important;
+  height: 1rem !important;
+  align-items: center;
+}
+
+.dline {
+  width: 130px;
+  height: 3px;
+  /* background: linear-gradient(right, grey, rgb(219, 201, 201)); */
+  background-color: grey;
+}
+
+.google-icon {
+  width: 35px;
+}
+
+/* .sss {
+  overflow: hidden !important;
+} */
+
+/* @media screen and (max-width: 500px ) {
+    .signup-container {
+      overflow-y: scroll !important;
+      /* padding-top: 5rem !important; 
+    }
+  } */

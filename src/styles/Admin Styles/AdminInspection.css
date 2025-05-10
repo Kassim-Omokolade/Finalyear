@@ -1,0 +1,18 @@
+
+.table-custom-blue th {
+  background-color: #002b5b !important;
+  color: white !important;
+  border: 1px solid #002b5b;
+}
+@media (max-width: 500px) {
+    
+    .inpectionHome h4{
+        font-size: 16px;
+    }
+   
+    .inpectionHome span{
+        font-size: 10px;
+    }
+}
+
+

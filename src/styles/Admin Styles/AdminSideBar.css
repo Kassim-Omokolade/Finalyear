@@ -1,0 +1,59 @@
+.AdminSidebarWrapper {
+    /* height: vh; */
+    gap: 6rem !important;
+    padding: 1rem;
+    background-color: #fff;
+
+}
+
+.AdminSideBarLinks {
+    gap: 1.5rem !important;
+}
+
+.AdminSideBarLinks a {
+    color: var(--grey) ;
+    width: 100%;
+    padding: 1rem;
+}
+
+/* .AdminSideBarLinks a:focus{
+    background: var(--primaryGreen);
+    color: var(--primaryGreen);
+} */
+
+.AdminActiveClass{
+    color: whitesmoke !important;
+    background-color: #002b5b;
+
+@media screen and  (max-width: 850px) {
+   .AdminSidebarWrapper {
+    position: absolute;
+    top: 0;
+    box-shadow: 2px 2px 2px var(--grey);
+    z-index: 100;
+    transform: translateX(-100%);
+   }
+
+  
+   .slideIn {
+    transition: all 0.3s ease;
+    animation: slideIn 0.7s ease-in;
+    transform: translate(0);
+   }
+
+   @keyframes slideIn {
+    from {
+        transform: translateX(-100%)
+    }
+
+    to {
+        transform: translateX(0)
+    }
+   }
+
+   /* .arrow-right {
+    position: absolute;
+    bottom: 0;
+   } */
+
+}}

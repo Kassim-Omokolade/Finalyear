@@ -1,0 +1,103 @@
+.avatar {
+  width: 114px;
+  height: 114px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.playIcon {
+  font-size: 4rem;
+}
+
+.OtherOptions div:first-child {
+  width: 327px !important;
+  height: 458px;
+}
+
+.OtherOptions div:last-child {
+  width: 327px !important;
+  height: 327px;
+}
+
+.playBtn button {
+  z-index: 2;
+}
+
+.playBtn:before {
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  padding: 3rem;
+  background: rgba(0, 0, 0, 0.584);
+  position: absolute;
+  z-index: 1;
+}
+
+input[type="password"]::placeholder {
+  font-size: 6rem;
+  letter-spacing: 0;
+  color: grey;
+}
+
+.AdminPdetails {
+  width: 73% !important;
+}
+
+@media screen and (max-width: 1280px) {
+  .OtherOptions div:first-child {
+    width: 100% !important;
+    height: 330px;
+  }
+  .AdminPdetails {
+    width: 100% !important;
+  }
+  
+  .OtherOptions div:last-child {
+    width: 100% !important;
+    height: 327px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .OtherOptions {
+    flex-direction: column !important;
+  }
+
+  .OtherOptions div:first-child {
+    width: 100% !important;
+    height: 458px;
+  }
+  
+  .OtherOptions div:last-child {
+    width: 100%  !important;
+    height: 327px;
+  }
+
+  .playIcon {
+    font-size: 2.6rem;
+  }
+
+  .playBtn:before {
+    width: 3rem !important;
+    height: 3rem !important;
+    padding: 2rem;
+  }
+
+  input[type="password"]::placeholder {
+    font-size: 3.5rem;
+    letter-spacing: 0;
+    color: grey;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .OtherOptions div:first-child {
+    width: 280px !important;
+    height: 458px;
+  }
+  
+  .OtherOptions div:last-child {
+    width: 280px !important;
+    height: 327px;
+  }
+}

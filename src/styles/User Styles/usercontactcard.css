@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700&family=Palanquin+Dark:wght@400;500;700&display=swap');
+
+#comment-input {
+    height: 80px;
+    width: 400px;
+
+
+}
+
+.form-label {
+    font-size: smaller;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.user-contactpara {
+    font-size: x-small;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.user-contactheading {
+    font-size: medium;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+}
+
+.user-contactcardtxt {
+    font-size: x-small;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.user-contactcardtxtinfo {
+    font-size: small;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+}
+
+.user-contactbtn {
+    font-size: small !important;
+    font-family: 'Exo 2', sans-serif !important;
+}
+
+.form-container {
+    /* border: 2px solid !important; */
+    border-radius: 10px !important;
+    box-shadow: 2px 3px 3px 2px #EBEBEB;
+}
+
+.user-contactheader{
+    background-image: url(../../assets/images/usercontactimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    position: relative;
+    bottom: 1rem !important;
+    /* padding: 123rem; */
+     
+}
+
+
+.user-contactheader-div>h1{
+    color: #FFFFFF;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 900;
+    
+}
+
+/* .user-forminput{
+    height: 30px;
+} */
+
+/* .box{
+    height: 60px;
+   
+} */
+
+/* .user-contactinfo{
+    height: 50px ; 
+} */
+/* .form-container{
+    padding: 20px !important;
+    
+    
+*/
+
+@media (min-width:600px) {
+    .user-contactheader{
+        height: 360px;
+    }
+    
+} 
+
+@media screen and (min-width: 768px) {
+    .contactform-container {
+        height: 400px;
+    }
+
+    /* .user-contactinfo{
+        height: 300px !important;
+    } */
+    .usercontact-container {
+        display: flex;
+        gap: 20px;
+
+    }
+
+    .user-contactpair {
+        display: flex;
+        gap: 5px;
+    }
+
+    .user-forminput {
+        height: 38px;
+    }
+
+    .user-formtxtarea {
+        height: 95px;
+    }
+
+
+    .user-contactheading {
+        font-size: large;
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 600;
+    }
+
+    .user-contactpara {
+        font-size: small;
+        color: #70778B;
+
+    }
+
+    /* .user-contactinfo{
+        height: 
+    }  */
+}
+
+@media screen and (min-width: 1024px) {
+    .usercontact-container {
+        display: flex;
+        gap: 90px;
+        margin: 60px 60px 20px 60px !important;
+
+    }
+
+    .contactform-container {
+        height: 515px;
+        
+    }
+
+    .user-contactheader{
+        height: 400px;
+    }
+    /* .box{
+    height: 0px;
+ } */
+    .user-contactheading {
+        font-size: x-large;
+        font-family: 'Exo 2', sans-serif;
+        font-weight: 600;
+    }
+
+    .user-contactpara {
+        font-size: large;
+    }
+
+    .user-contactheading {
+        font-size: x-large;
+
+    }
+
+    .user-contactcardtxt {
+        font-size: small;
+    }
+
+    .user-contactcardtxtinfo {
+        font-size: larger;
+    }
+
+    .form-innercontainer {
+        margin: 20px;
+    }
+
+   
+    .user-contactbtn {
+        height: 50px;
+
+    }
+
+    .user-formtxtarea {
+        margin-bottom: 10px !important;
+        height: 120px;
+    }
+
+    .user-contactheader {
+        height: 600px;
+    }
+
+}

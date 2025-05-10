@@ -1,0 +1,23 @@
+.signup-container {
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.google-icon {
+  width: 35px;
+}
+
+@media screen and (min-width: 320px) {
+  .password-field {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 425px) {
+}
+
+@media screen and (min-width: 1024px) {
+}

@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@600;700&display=swap");
+
+.feature-container {
+  width: 100%;
+  margin-top: 8rem;
+}
+/* Cards */
+
+.UserPropertiesCard-Container h2 {
+  font-size: 3rem;
+  /* padding: 1rem 3rem; */
+  font-family: "Exo 2" sans-serif;
+  font-weight: 600;
+}
+.forSale {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: #fff;
+  background-color: #002B5B !important;
+  padding: 5px;
+  border-radius: 2px;
+  z-index: 99;
+}
+.featured {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: #fff;
+  background-color: #c5c5c5;
+  padding: 5px;
+  border-radius: 2px;
+  z-index: 99;
+}
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 3px;
+}
+
+.card-title {
+  color: #444444;
+  margin-bottom: 8px;
+  margin-right: 0 !important;
+  padding-left: 10px;
+  font-family: "Exo 2" sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.inner-icons {
+  display: flex;
+  justify-content: end;
+  font-size: medium;
+  gap: 1rem;
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  margin-right: 1rem;
+  font-size: large;
+}
+.property-icon {
+  background-color: #656363;
+  color: #fff;
+  border-radius: 5px;
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  /* opacity: 50%; */
+}
+.location,
+.bedroom,
+.toilet,
+.price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.difft {
+  font-family: "Exo 2" sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color:  #002B5B !important;
+}
+.share-like-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  padding-bottom: 15px;
+  gap: 1rem;
+}
+
+.share-like-icons i {
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.bed-toilet {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 18px;
+  padding-right: 80px;
+  font-size: small;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #666666;
+}
+
+.toilet {
+  padding-left: 15px;
+  gap: 0.5rem;
+}
+.bedroom {
+  gap: 0.5rem;
+}
+
+.price-icon {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 18px;
+  padding-right: 18px;
+  height: 60px;
+}
+
+.location {
+  padding-left: 15px;
+  font-size: medium;
+}
+
+.card-cover {
+  scroll-snap-type: mandatory;
+}
+
+.card-cover::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  width: 392.74px;
+  
+}
+@media screen and (max-width: 768px) {
+  .UserPropertiesCard-Container  h2 {
+    font-size: 1.6rem;
+    /* padding: 1rem; */
+  }
+
+  .feature-container {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .feature-container {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .UserPropertiesCard-Container  h2 {
+    font-size: 1.3rem;
+  }
+
+  .card {
+    width: 360.74px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .feature-container {
+    margin-top: 2rem !important;
+    padding: 30px !important ;
+  }
+
+  /* .UserPropertiesCard-Container {
+    margin-top: 2rem;
+  } */
+  .UserPropertiesCard-Container > h2 {
+    font-size: 0.5rem !important;
+    /* padding: 1rem 2rem; */
+  }
+  .card {
+    width: 290px;
+  }
+
+  .bed-toilet {
+    flex-direction: column;
+  }
+
+  .toilet {
+    padding-left: 0 !important;
+  }
+}

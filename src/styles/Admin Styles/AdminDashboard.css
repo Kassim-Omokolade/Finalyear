@@ -1,0 +1,147 @@
+.Admindash {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Recently-added-props {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2px 9px;
+}
+.Recently-added-props h2 {
+  font-size: 16px;
+}
+.Admindash h1 {
+  font-size: 20px;
+}
+.location {
+  color: #8d8d8d;
+}
+.linked {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+.spaces {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: #8d8d8d;
+}
+
+.networkFamily {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.linked a {
+  text-decoration: none;
+}
+.AdminDashBtn {
+  background-color:#002b5b ;
+  padding: 10px 0;
+  color: white;
+  border: none;
+  border-radius: 10px !important;
+  /* justify-content: center; */
+  width: 14rem;
+  margin-bottom: 3rem;
+}
+
+.price {
+  color: #0fb7c1;
+  font-size: 18px;
+}
+
+.network {
+  color: #002b5b;
+  background-color: #caf2fe;
+  padding: 5px 10px;
+  font-size: 13px;
+  border-radius: 30px;
+}
+
+.family {
+  color: #e92727;
+  padding: 5px 10px;
+  font-size: 13px;
+  background-color: #ffcfcf;
+  border-radius: 30px;
+}
+
+
+
+.view-all {
+  color: #002b5b;
+}
+
+.AdminDashboard-images img {
+  width: 250px;
+  height: 268px;
+  object-fit: cover;
+  border-radius: 0.94656rem;
+}
+
+.AdminDashboard-images {
+  width: 280px;
+  margin: auto;
+}
+
+@media screen and (min-width: 425px) {
+  .AdminDashboard-images img {
+    width: 270px;
+  }
+  .AdminDashBtn {
+    width: 270px;
+  }
+  .Recently-added-props {
+    gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .AdminDashProperties {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 0 5px;
+  }
+  .Recently-added-props {
+    gap: 22rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .Recently-added-props {
+    gap: 25rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .AdminDashProperties {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .Recently-added-props {
+    gap: 49rem;
+  }
+  .Admindash h1 {
+    font-size: 2.1875rem;
+  }
+  .Recently-added-props h2 {
+    font-size: 20px;
+  }
+  .Recently-added-props h6 {
+    font-size: 0.8rem;
+  }
+  .linked {
+    color: #181a20;
+    text-align: center;
+    font-family: Cambay;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem; /* 150% */
+    letter-spacing: 0.0125rem;
+  }
+}

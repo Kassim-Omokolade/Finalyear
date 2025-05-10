@@ -1,0 +1,15 @@
+@keyframes fadein {
+    from {
+        opacity: 0.5;
+        transform: scale(0.96);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.UserShareContainer {
+    animation: fadein 0.3s ease-in;
+}
